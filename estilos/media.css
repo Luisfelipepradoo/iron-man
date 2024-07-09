@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    li {padding: 3px;}
+
+    img {display: none;}
+
+    #telamedia {
+        display: block;
+        height: 420px;
+        width: 250px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    img { display: block;}
+
+    #telamedia {display: none;}
+
+    div#titulo {
+        font-size: 2em;
+        line-height: 50px;
+        flex-direction: column;
+    }
+    
+    li {
+        padding: 10px;
+    }
+
+    a{
+        font-size: 1.5em;
+    }
+}
