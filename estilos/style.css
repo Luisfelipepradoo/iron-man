@@ -8,6 +8,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 :root {
@@ -57,10 +58,9 @@ div#titulo {
     color: #9D0303;
 }
 
-header > ul > li {
+.menu > li{
     display: inline-block;
 }
-
 
 a {
     color: var(--cor1);
@@ -107,11 +107,4 @@ main p {
 
 img {
     display: none;
-}
-
-footer {
-    background-color: var(--cor1);
-    color: var(--cor5);
-    padding: 10px;
-    margin: 10px;
 }
